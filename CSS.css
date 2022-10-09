@@ -1,0 +1,58 @@
+body,
+html{
+	width: 99%;
+	height: 100%;
+	font-family: 'Libre Baskerville', serif;
+	  background: url(Bronco.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #eb0000;
+	border-color: #ffffff;
+	text-shadow: -1px 0 white, 0 1px white, 0 -1px white; 
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+hr {
+	flex: 1;
+	height: 5px;
+	border: none;
+	max-width: 60px;
+	background: #dd2929;
+	opacity: 1;
+}
+
+.buffer {
+	height: 10rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #eb0000;
+	border-color: #eb0000;
+}
+
+.btn-primary:hover {
+	background-color: #dd2929;
+	border-color: #dd2929;
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 0.5rem 1rem;
+}
